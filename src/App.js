@@ -1,10 +1,13 @@
+import Navbar from "./components/navbar/Navbar";
+import Main from "./components/main/Main";
 
 function App() {
 
 
   return (
     <div>
-        <h1>TESTING TESTING</h1>
+        <Navbar />
+        <Main />
     </div>
   );
 }
